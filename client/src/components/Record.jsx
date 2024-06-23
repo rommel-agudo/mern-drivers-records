@@ -148,8 +148,8 @@ export default function Record() {
                                 <div className="space-y-4 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
                                     <div className="flex items-center">
                                         <input
-                                            id="positionLearner"
-                                            name="positionOptions"
+                                            id="levelLearner"
+                                            name="levelOptions"
                                             type="radio"
                                             value="Learner"
                                             className="h-4 w-4 border-slate-300 text-slate-600 focus:ring-slate-600 cursor-pointer"
@@ -157,14 +157,14 @@ export default function Record() {
                                             onChange={(e) => updateForm({ level: e.target.value })}
                                         />
                                         <label
-                                            htmlFor="positionLearner"
+                                            htmlFor="levelLearner"
                                             className="ml-3 block text-sm font-medium leading-6 text-slate-900 mr-4"
                                         >
                                             Learner
                                         </label>
                                         <input
-                                            id="positionRestricted"
-                                            name="positionOptions"
+                                            id="levelRestricted"
+                                            name="levelOptions"
                                             type="radio"
                                             value="Restricted"
                                             className="h-4 w-4 border-slate-300 text-slate-600 focus:ring-slate-600 cursor-pointer"
@@ -172,14 +172,14 @@ export default function Record() {
                                             onChange={(e) => updateForm({ level: e.target.value })}
                                         />
                                         <label
-                                            htmlFor="positionRestricted"
+                                            htmlFor="levelRestricted"
                                             className="ml-3 block text-sm font-medium leading-6 text-slate-900 mr-4"
                                         >
                                             Restricted
                                         </label>
                                         <input
-                                            id="positionFull"
-                                            name="positionOptions"
+                                            id="levelFull"
+                                            name="levelOptions"
                                             type="radio"
                                             value="Full"
                                             className="h-4 w-4 border-slate-300 text-slate-600 focus:ring-slate-600 cursor-pointer"
@@ -187,7 +187,7 @@ export default function Record() {
                                             onChange={(e) => updateForm({ level: e.target.value })}
                                         />
                                         <label
-                                            htmlFor="positionFull"
+                                            htmlFor="levelFull"
                                             className="ml-3 block text-sm font-medium leading-6 text-slate-900 mr-4"
                                         >
                                             Full
